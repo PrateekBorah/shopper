@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-neutral-800;
+  }
+  html.dark {
+    @apply text-neutral-50;
+    @apply bg-neutral-800;
+  }
+}
+
+.main{
+  min-height: 100vh;
+  background-color: #F7FFE5;
+}
+
+.text_color{
+  color:#17594A;
+}
+
+.button_style{
+  color:black;
+  border-width: 1px;
+  border-radius: 1.5rem;
+  background-color: #17594A;
+  cursor: pointer;
+  padding: 12px
+}
+
+.button_style:hover{
+  border-color: #17594A;
+}
