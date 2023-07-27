@@ -1,10 +1,11 @@
 import { Routes, Route } from "react-router-dom"
 import Layout from "./Layout"
-import Index from "./components/LandingPage"
 import Login from "./components/Login/Login"
 import Register from "./components/Login/register"
 import Home from "./components/HomePage/Home"
 import Feedback from "./components/Feedback/Feedback"
+import LandingPage from "./components/LandingPage/LandingPage"
+
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
     <div className="main">
     <Routes>
       <Route path="/" element={<Layout/>}>
-        <Route path="/" element={<Index/>}/>
+        <Route path="/" element={<LandingPage/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/register" element={<Register/>}/>
         <Route path="/home" element={<Home/>}/>
