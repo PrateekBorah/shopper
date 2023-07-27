@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom"
 import Layout from "./Layout"
 import Login from "./components/Login/Login"
-import Register from "./components/Login/register"
 import Home from "./components/HomePage/Home"
 import Feedback from "./components/Feedback/Feedback"
 import LandingPage from "./components/LandingPage/LandingPage"
+import Register from "./components/Login/Register"
 
 
 
